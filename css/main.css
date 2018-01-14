@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img {
+  background-image: url(../assets/images/white-owl.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+li {
+  list-style: none !important;
+  box-sizing: border-box;
+}
+
+li.nav-item {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.opacity {
+  background-color: rgba( 000, 000, 000, .3);
+}
+
+.opacity-white {
+  background-color: rgba(255,255,255, .5) !important;
+  
+}
+
+.input-opacity {
+  border-color: rgba(255,255,255, .5) !important;
+}
+
+.right-addon {
+  border-radius: 0px 5% 5% 0px !important;
+}
+
+.container-form {
+  background-color: #e2e4e6;
+  border-radius: 5px;
+  margin-left: 15px;
+  padding: 10px;
+
+}
+
+.container-form button {
+  margin-top: 15px;
+}
+
+.input-color-list {
+  background-color: #d7d8da !important;
+}
+
+input.input-color-list:focus {
+  color: #495057;;
+  border-color: #d7d8da  !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(215,216,218,.2) !important;
+}
+
+/*  */
+
+.container-task {
+  background-color: #e2e4e6;
+  border-radius: 5px;
+  margin-left: 15px;
+  padding: 0 !important;
+}
+
+h5, h6 {
+  padding: 7px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+li.newTask {
+  padding: 2px 10px 2px 10px;
+}
+
+li div.name {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+div.name {
+  padding: 7px;
+  font-size: 1em;
+}
+
+.addTask {
+  padding: 7px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.task-tarea textarea, .task-tarea button {
+  margin-bottom: 10px;
+}
+
+#addNameTask {
+  resize: none;
+}
+
+.task {
+  width: 100%;
+  word-wrap: break-word;
+}

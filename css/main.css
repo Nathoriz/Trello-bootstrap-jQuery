@@ -107,12 +107,7 @@ div.name {
   resize: none;
 }
 
-.task {
+.task, h5 {
   width: 100%;
-  word-wrap: break-word;
-}
-
-h5 {
-  width: 100%;
-  word-wrap: break-word;
+  word-wrap: break-word !important;
 }
